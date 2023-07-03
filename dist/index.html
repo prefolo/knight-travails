@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Knights Travails</title>
+  </head>
+  <body>
+    <div id="header">
+      Knights Travails
+    </div>
+    <div id="content">
+      <div id="tip">&nbsp;<br>⌄</div>
+      <div id="board"></div>
+      <button id="clearBtn" class="buttonD">Clear Board</button>
+      <div id="buttons-container">
+        <div class="box">
+          <div class="label">Place the Knight</div>
+          <button id="placeBtn" class="buttonA">Select Start Cell</button>
+          <button id="randomBtn" class="buttonA">Random</button>         
+        </div>
+        <div class="box">
+          <div class="label">Select Destination</div>
+          <button id="selectEndBtn" class="buttonB" disabled>Select End Cell</button>
+        </div>
+          <div class="box">
+            <div class="label">Find Shortest Path</div>
+          <button id="travailBtn" class="buttonC" disabled>Travail</button>
+      </div>
+      </div>
+    </div>
+    <div id="footer">Copyright © 2023 prefolo</div>
+    <script src="main.js"></script>
+  </body>
+</html>
